@@ -1,0 +1,22 @@
+DROP Table students;
+CREATE TABLE students (
+    student_id INTEGER PRIMARY KEY AUTOINCREMENT,
+    name TEXT NOT NULL,
+    age INTEGER,
+    address TEXT,
+    math INTEGER,
+    science INTEGER,
+    english INTEGER,
+    hindi INTEGER,
+    total INTEGER,
+    average INTEGER,
+    percentage INTEGER
+);
+
+INSERT INTO students(name, age, address, math, science, english, hindi, total, average, percentage) VALUES('ZulKar-Nain Khan', 19, 'Darbar Chowk, Ahmednagar', 85, 90, 88, 92, 355, 88, 88);
+
+INSERT INTO students(name, age, address, math, science, english, hindi, total, average, percentage) VALUES('Shahid Sayyed', 19, 'Darga Daira, Ahmednagar', 78, 80, 75, 82, 315, 78, 78);
+
+INSERT INTO students(name, age, address, math, science, english, hindi, total, average, percentage) VALUES('Pratik Gawali', 22, 'Bhingar, Nagardawale', 90, 95, 89, 91, 365, 91, 91);
+
+SELECT * FROM students;
