@@ -13,10 +13,10 @@ CREATE TABLE students (
     percentage INTEGER
 );
 
-INSERT INTO students(name, age, address, math, science, english, hindi, total, average, percentage) VALUES('ZulKar-Nain Khan', 19, 'Darbar Chowk, Ahmednagar', 85, 90, 88, 92, 355, 88, 88);
+INSERT INTO students(name, age, address, math, science, english, hindi, total, average, percentage) VALUES('ZulKar-Nain Khan', 19, 'Darbar Chowk, Ahmednagar', 85, 90, 88, 92, 355, 88, 88.75);
 
-INSERT INTO students(name, age, address, math, science, english, hindi, total, average, percentage) VALUES('Shahid Sayyed', 19, 'Darga Daira, Ahmednagar', 78, 80, 75, 82, 315, 78, 78);
+INSERT INTO students(name, age, address, math, science, english, hindi, total, average, percentage) VALUES('Shahid Sayyed', 19, 'Darga Daira, Ahmednagar', 78, 80, 75, 81, 314, 78, 78.5);
 
-INSERT INTO students(name, age, address, math, science, english, hindi, total, average, percentage) VALUES('Pratik Gawali', 22, 'Bhingar, Nagardawale', 90, 95, 89, 91, 365, 91, 91);
+INSERT INTO students(name, age, address, math, science, english, hindi, total, average, percentage) VALUES('Pratik Gawali', 22, 'Bhingar, Nagardawale', 90, 95, 89, 91, 365, 91, 91.25);
 
 SELECT * FROM students;
