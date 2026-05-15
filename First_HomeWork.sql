@@ -11,6 +11,7 @@ CREATE TABLE students (
     total INTEGER,
     average INTEGER,
     percentage INTEGER
+    created_at DATETIME DEFAULT CURRENT_TIMESTAMP
 );
 
 INSERT INTO students(name, age, address, math, science, english, hindi, total, average, percentage) VALUES('ZulKar-Nain Khan', 19, 'Darbar Chowk, Ahmednagar', 85, 90, 88, 92, 355, 88, 88.75);
